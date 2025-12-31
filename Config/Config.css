@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    padding: 10px;
+    width: 400px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    background: rgb(80,80,80);
+}
+
+#configContainer {
+    width: 100%;
+    overflow: hidden;
+}
+
+#configContainer div div {
+    padding: 5px;
+}
+
+.columnTitle {
+    font-size: 18px;
+    background: rgb(40,40,40);
+}
+
+button {
+    font-weight: 600;
+    background: rgb(100,100,200);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(120,120,220);
+}
+
+button.disabled {
+    font-size:10px;
+    cursor: default;
+    background: rgb(70,70,150);
+}
+
+button.disabled:hover {
+    background: rgb(70,70,150);
+}
+
+#backButton{
+    top: 15px;
+    left: 15px;
+    position: absolute;
+}
+
+table tr:not(:last-child) td:not(:first-of-type) {
+    border-bottom: 3px solid rgb(100,100,100);
+}
