@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8">
+        <title>Plan - Discord Integrated UI Message Logger</title>
+        <link rel="stylesheet" href="config.css">
+    </head>
+    <body>
+        <div id="configContainer">
+            <div>
+                <button id="backButton">&#8592</button>
+                <div class="columnTitle">Current plan</div>
+                <span id="planType">Free</span>
+                <span id="endDate"> (End date : Never)</span>
+            </div>
+            <div>
+                <div class="columnTitle">Choose your plan</div>
+                <table id="planTable">
+                    <tr>
+                        <th>Feature</th>
+                        <th>Free</th>
+                        <th>Basic</th>
+                        <th>Premium</th>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>$0/Month</td>
+                        <td>$2.99/Month</td>
+                        <td>$5.99/Month</td>
+                    </tr>
+                    <tr>
+                        <td>Maximum logs</td>
+                        <td>500</td>
+                        <td>2,000</td>
+                        <td>Unlimited</td>
+                    </tr>
+                    <tr>
+                        <td>Keep logs when restarting</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Privacy</td>
+                        <td>Private</td>
+                        <td>Private</td>
+                        <td>Private</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button class="disabled">Current plan</button></td>
+                        <td><button class="disabled">Coming soon</button></td>
+                        <td><button class="disabled">Coming soon</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script src="config.js"></script>
+    </body>
+</html>
