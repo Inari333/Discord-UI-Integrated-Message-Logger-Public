@@ -1,4 +1,4 @@
-Does that little “edited” annotation annoy you? ✏️
+﻿Does that little “edited” annotation annoy you? ✏️
 Have you ever wondered what the original message was?
 Did you ever make a bet with a friend… only for them to delete their message so it looks like you’re talking to yourself? 😅
 

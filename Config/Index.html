@@ -9,18 +9,22 @@
         <div id="configContainer">
             <div id="pageContent">
                 <div>
-                    <div class="columnTitle">Discord Integrated Message Logger</div>
-                    <div>Version 0.3.1</div>
+                    <div class="columnTitle">Discord Integrated UI Message Logger</div>
+                    <div>Version 1.0.0</div>
                 </div>
                 <div>
                     <div class="columnTitle">Logs count</div>
-                    <div id="logCount">Open discord to get log counts</div>
+                    <div>
+                        <span id="logsCount">0</span>
+                        <span id="logsLimit"> / 500</span>
+                    </div>
+                    <button id="deleteButton">Delete</button>
                 </div>
                 <div>
                     <div class="columnTitle">Plan</div>
                     <div>
-                        <span id="planType">Free</span>
-                        <button id="upgradeButton">Upgrade</button>
+                        <span id="planLevel">Free</span>
+                        <button id="upgradeButton" class="disabled">Waiting for data</button>
                     </div>
                 </div>
                 <div>
@@ -31,6 +35,7 @@
                 </div>
             </div>
         </div>
-        <script src="config.js"></script>
+        <script src="../Common/a2.js"></script>
+        <script src="f.js"></script>
     </body>
 </html>

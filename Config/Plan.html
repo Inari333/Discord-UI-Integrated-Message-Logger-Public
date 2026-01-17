@@ -11,7 +11,6 @@
                 <button id="backButton">&#8592</button>
                 <div class="columnTitle">Current plan</div>
                 <span id="planType">Free</span>
-                <span id="endDate"> (End date : Never)</span>
             </div>
             <div>
                 <div class="columnTitle">Choose your plan</div>
@@ -48,13 +47,18 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td><button class="disabled">Current plan</button></td>
-                        <td><button class="disabled">Coming soon</button></td>
-                        <td><button class="disabled">Coming soon</button></td>
+                        <td><button id="subPlanFree">Cancel current plan</button></td>
+                        <td><button id="subPlanBasic">Choose</button></td>
+                        <td><button id="subPlanPremium">Choose</button></td>
                     </tr>
                 </table>
+                <div id="keyContainer">
+                    <span>License Key</span>
+                    <span id="key" class="spoiler"></span>
+                </div>
             </div>
         </div>
-        <script src="config.js"></script>
+        <script src="../Common/a2.js"></script>
+        <script src="f.js"></script>
     </body>
 </html>

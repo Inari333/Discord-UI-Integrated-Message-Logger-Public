@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Discord Integrated UI Message Logger",
-  "version": "0.3.1",
+  "version": "1.0.0",
   "description": "Log all messages, image, edit and delete as you receive them from Discord and display in a friendly UI.",
   "icons": {
     "16": "icon16.png",
@@ -13,8 +13,14 @@
     "default_popup": "Config/Index.html"
   },
   "background": {
-    "service_worker": "Background.js"
+    "service_worker": "b.js"
   },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://inari-discord-api-emhndjbwfqc4enfz.canadaeast-01.azurewebsites.net/*"
+  ],
   "content_scripts": [
     {
       "matches": [ "https://discord.com/*" ],
@@ -22,7 +28,15 @@
         "Style.css"
       ],
       "js": [
-        "Script.js"
+        "Common/c.js",
+        "Common/a.js",
+        "Contents/i.js",
+        "Contents/g.js",
+        "Contents/n.js",
+        "Contents/m.js",
+        "Contents/t.js",
+        "External Libraries/pako.min.js",
+        "s.js"
       ],
       "run_at": "document_idle"
     }

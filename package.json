@@ -1,0 +1,10 @@
+{
+  "name": "message-logger",
+  "version": "1.0.0",
+  "scripts": {
+    "minify": "node minify.js"
+  },
+  "devDependencies": {
+    "terser": "^5.36.0"
+  }
+}

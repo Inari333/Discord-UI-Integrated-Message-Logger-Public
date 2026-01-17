@@ -35,10 +35,14 @@ button:hover {
     background: rgb(120,120,220);
 }
 
-button.disabled {
+button.disabled, button.fullDisabled {
     font-size:10px;
     cursor: default;
     background: rgb(70,70,150);
+}
+
+#subPlanFree {
+    font-size: 10px;
 }
 
 button.disabled:hover {
@@ -53,4 +57,23 @@ button.disabled:hover {
 
 table tr:not(:last-child) td:not(:first-of-type) {
     border-bottom: 3px solid rgb(100,100,100);
+}
+
+.invisible{
+    display: none;
+}
+
+#keyContainer{
+    font-size: 10px;
+    text-align: right;
+}
+
+.spoiler {
+    background: #202225;
+    color: transparent;
+    cursor: pointer;
+}
+
+.spoiler:hover {
+    color: white;
 }
