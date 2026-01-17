@@ -24,6 +24,8 @@ What happens on your local machine stays on your local machine — just like you
 
 No cloud, no tracking, no data sharing.
 
+All payment processing is handled securely by Stripe.
+
 💬 Support
 
 For questions, feature requests, bug reports, tech support, or if you just feel like chatting, join our Discord server:
