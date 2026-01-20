@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Discord Integrated UI Message Logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Log all messages, image, edit and delete as you receive them from Discord and display in a friendly UI.",
   "icons": {
     "16": "icon16.png",
