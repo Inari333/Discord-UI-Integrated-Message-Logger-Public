@@ -10,3 +10,16 @@ img.convertedImage {
 [id^="deleted-"] > :first-child {
     background: rgba(255, 0, 0, var(--deletedColorOpacity));
 }
+
+.messageHoverInfo {
+    color: var(--text-default);
+    position: absolute;
+    opacity: 0;
+    user-select: text;
+    cursor: text;
+    z-index: 9999;
+}
+
+.messageHoverInfo:hover{
+    opacity: 1;
+}

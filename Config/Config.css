@@ -8,6 +8,11 @@ body {
     background: rgb(80,80,80);
 }
 
+body.fullPage {
+    width: 100%;
+    text-align: left;
+}
+
 #configContainer {
     width: 100%;
     overflow: hidden;
